@@ -3,10 +3,15 @@ A basic and slow name checker for multiple sites
 
 Current sites:
 GitHub
+
 Instagram
+
 Kik (!ONLY CHECKS ws2.kik.com!)
+
 PasteBin
+
 Solo.to
+
 
 It works as you would expect it
 Send GET request to website with username from usernames.txt -> if site returns status code 404 -> print "[ website, statuscode ] available + username" & add to available_website.txt
